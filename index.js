@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   
-  let newarr = tutorials.map((title)=>{
+  let result = tutorials.map((title)=>{
     let words = title.split(" ");
     
     words = words.map(word=>{
@@ -22,7 +22,7 @@ const titleCased = () => {
     return words.join(" ")
     
   })
-   return newarr;
+   return result;
  
   // return tutorials
 }
